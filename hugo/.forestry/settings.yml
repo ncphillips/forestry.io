@@ -3,7 +3,17 @@ new_page_extension: md
 auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
-sections: 
+sections:
+  hugo/content/docs:
+    label: Docs
+  hugo/content/blog:
+    label: Blog
+  hugo/content/careers:
+    label: Careers
+  hugo/content/showcase:
+    label: Showcase
+  hugo/content:
+    label: Pages
 upload_dir: hugo/static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"
